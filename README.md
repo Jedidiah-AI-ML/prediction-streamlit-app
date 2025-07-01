@@ -10,8 +10,7 @@ This is a Streamlit web app that allows users to:
 
 ## 🚀 Live App
 
-[Click here to open the app on Streamlit Cloud](https://share.streamlit.io/your-username/your-repo-name/main/heart_disease_app_with_input.py)  
-→ *(Replace with your actual deployment URL)*
+[Click here to open the app on Streamlit Cloud]((https://github.com/Jedidiah-AI-ML/prediction-streamlit-app/blob/main/heart_disease_app_with_input.py))
 
 ---
 
@@ -22,8 +21,33 @@ This is a Streamlit web app that allows users to:
 - `heart-disease.csv` – Sample dataset (optional)
 
 ---
+Example Prediction
+Once trained, input new patient values to see the app predict whether they have heart disease, along with confidence probabilities.
 
-## 📊 Dataset Format
+👨‍💻 Built With
+Python 🐍
 
-Your CSV should include these features:
+Streamlit 🚀
+
+Scikit-learn 🤖
+
+Pandas & NumPy 📊
+
+Matplotlib & Seaborn 📈
+
+📬 Contact
+Feel free to reach out if you have any questions!
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know if you'd like me to:
+- Add visuals like screenshots or GIFs
+- Customize it with your GitHub username and repo
+- Add instructions for contributors or license info
+
+Ready to deploy?
 
