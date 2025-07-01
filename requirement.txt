@@ -2,5 +2,5 @@ streamlit
 scikit-learn
 pandas
 numpy
-matplotlib
+matplotlib==3.9.2
 seaborn
