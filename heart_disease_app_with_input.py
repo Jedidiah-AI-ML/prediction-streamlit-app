@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -65,7 +64,12 @@ if uploaded_file is not None:
     input_data = {}
     for col in X.columns:
         if df[col].dtype == 'int64' or df[col].dtype == 'float64':
-            val = st.number_input(f"Enter value for {col}", float(df[col].min()), float(df[col].max()), float(df[col].mean()))
+            val = st.number_input(
+                f"Enter value for {col}",
+                float(df[col].min()),
+                float(df[col].max()),
+                float(df[col].mean())
+            )
             input_data[col] = val
         else:
             st.warning(f"Skipping unsupported column: {col}")
@@ -80,5 +84,6 @@ if uploaded_file is not None:
             st.error(f"⚠️ The model predicts the patient **has heart disease** with probability {prediction_proba:.2f}")
         else:
             st.success(f"✅ The model predicts the patient **does not have heart disease** with probability {1 - prediction_proba:.2f}")
+
 else:
     st.info("Awaiting CSV file upload.")
