@@ -24,30 +24,17 @@ This is a Streamlit web app that allows users to:
 Example Prediction
 Once trained, input new patient values to see the app predict whether they have heart disease, along with confidence probabilities.
 
-👨‍💻 Built With
-Python 🐍
+## Built With
+Python 
 
-Streamlit 🚀
+Streamlit 
 
-Scikit-learn 🤖
+Scikit-learn 
 
-Pandas & NumPy 📊
+Pandas & NumPy 
 
-Matplotlib & Seaborn 📈
+Matplotlib & Seaborn 
 
-📬 Contact
+## Contact
 Feel free to reach out if you have any questions!
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you'd like me to:
-- Add visuals like screenshots or GIFs
-- Customize it with your GitHub username and repo
-- Add instructions for contributors or license info
-
-Ready to deploy?
 
